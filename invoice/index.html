@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/frontend_tutorial/invoice/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/invoice/css/style.css">
     <title>invoice project</title>
 </head>
 <body>
@@ -14,8 +14,8 @@
                 <td colspan="2">
                     <table>
                         <tr>
-                            <td>
-                                <img src="Forex.jpy" alt="Forex Our logo ">
+                            <td class="title">
+                                <img class="logo" src="Forex.jpg" alt="Forex" hight="100" width="200">
                             </td>
                             <td>
                                 Invoice Number: 123456789 <br>
@@ -26,8 +26,8 @@
                     </table>
                 </td>
             </tr>
-            <tr>
-                <td>
+            <tr class="information">
+                <td colspan="2">
                     <table>
                         <tr>
                         <td>
@@ -36,17 +36,46 @@
                             Enugu State
 
                         </td>
-                        <td>Your Home Address,<br>
-                         Your Email 
+                        <td>
+                            Your Home Address,<br>
+                         Your Name, <br>
+                         Your email
                         </td>
                         
                         </tr>
                     </table>
 
-                </td></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+                </td>
+            </tr>
+            <tr class="heading">
+                <td>Payment Method</td>
+                <td>Check #</td>
+            </tr>
+            <tr class="details">
+                <td>Check </td>
+                <td>1000</td>
+            </tr>
+            <tr class="heading">
+                <td>Items</td>
+                <td>Price</td>
+            </tr>
+            <tr class="item">
+                <td>Website design</td>
+            <td>#300,00</td>
+
+            </tr>
+            <tr class="item last">
+                <td>Hosting (3 months)</td>
+                <td>#75,000</td>
+            </tr>
+            <tr class="item">
+                <td>Domain name (1 year)</td>
+                <td>#10,000</td>
+            </tr>
+            <tr class="total">
+                <td></td>
+                <td>Total:#385,000</td>
+            </tr>
         </table>
     </div>
 </body>
